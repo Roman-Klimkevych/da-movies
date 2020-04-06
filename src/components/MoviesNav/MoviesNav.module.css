@@ -1,0 +1,42 @@
+.container {
+  padding: 10px;
+}
+
+.title {
+  text-transform: uppercase;
+  border-bottom: 1px solid white;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.navList {
+  padding: 0;
+  list-style: none;
+  color: grey;
+  margin-top: 30px;
+}
+
+.navItem {
+  padding: 10px;
+  font-size: 18px;
+  text-transform: capitalize;
+  border-radius: 5px;
+}
+
+.selected {
+  color: white;
+}
+
+.outlined {
+  border: 1px solid #ff7800;
+}
+
+.arrow {
+  margin-left: 5px;
+  color: #ff7800;
+  display: none;
+}
+
+.selected .arrow {
+  display: initial;
+}
